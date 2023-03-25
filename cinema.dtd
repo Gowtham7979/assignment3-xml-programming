@@ -1,0 +1,10 @@
+<!DOCTYPE cinema [
+    <!ELEMENT cinema (movie+)>
+    <!ELEMENT movie (title, director, budget)>
+    <!ATTLIST movie id CDATA #REQUIRED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT director (#PCDATA)>
+    <!ELEMENT budget (#PCDATA)>
+    <!ATTLIST budget currency CDATA #REQUIRED>
+]>
+

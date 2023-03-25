@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema>
+<movie id="m001">
+<title>RRR</title>
+<director>Rajamouli</director>
+<budget currency="INR">10000</budget>
+</movie>
+<movie id="m002">
+<title>VVR</title>
+<director>Ram</director>
+<budget currency="INR">1000</budget>
+</movie>
+<movie id="m003">
+<title>ALVP</title>
+<director>Alluarjun</director>
+<budget currency="INR">100000</budget>
+</movie>
+</cinema>
