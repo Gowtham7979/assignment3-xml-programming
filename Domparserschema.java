@@ -16,9 +16,15 @@ public class Domparserschema {
      
       DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
       DocumentBuilder builder = factory.newDocumentBuilder();
- Document doc = builder.parse("cinema.xml");
+
+    
+      Document doc = builder.parse("cinema.xml");
+
+      
       SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
       Schema schema = schemaFactory.newSchema(new File("cinema.xsd"));
+
+     
       Validator validator = schema.newValidator();
       validator.validate(new DOMSource(doc));
       
